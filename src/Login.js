@@ -38,12 +38,12 @@ export default class Login extends Component {
         fetch(url, {
             method: 'POST',
             headers: {
-            'Accept': 'application/json',
-            'Content-type': 'application/json',
+                'Accept': 'application/json',
+                'Content-type': 'application/json',
             },
             body: JSON.stringify({
-            user: s.user,
-            pass: s.pass,
+                user: s.user,
+                pass: s.pass,
             }),
         })
             .then((response) => response.json())

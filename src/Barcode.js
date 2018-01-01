@@ -34,7 +34,7 @@ export default class Barcode extends Component {
 
   getProduct(barcode) {
     let s = this.state;
-    let url = 'http://192.168.1.35:8888/ppramos-ce/mobile/barcode/' + this.state.barcode;
+    let url = 'http://192.168.1.35:8888/ppramos-ce/mobile/barcode/' + barcode;
 
     fetch(url)
       .then((response) => response.json())

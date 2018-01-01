@@ -34,7 +34,7 @@ export default class Dashboard extends Component {
                 <Image style={styles.logo} source={require('../assets/images/Logo01.png')} />
                 <View style={styles.buttonArea}>
                     <TouchableHighlight style={styles.button} onPress={this.barcode}>
-                        <Text style={styles.btnText}>Ler código de barras</Text>
+                        <Text style={styles.btnText}>Consulta de produtos</Text>
                     </TouchableHighlight>
                 </View>
                 <View style={styles.buttonArea}>

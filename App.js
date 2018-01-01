@@ -14,7 +14,7 @@ const Browser = StackNavigator({
   Logout: { screen: Logout },
   Dashboard: { screen: Dashboard },
   Barcode: { screen: Barcode },
-  //Reduction: { screen: Reduction }
+  Reduction: { screen: Reduction }
 });
 
 export default Browser;
